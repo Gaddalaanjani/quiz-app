@@ -1,0 +1,42 @@
+.results-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .results-page h2 {
+    color: #2e86de;
+    margin-bottom: 20px;
+  }
+  
+  .summary p {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  .solutions {
+    margin-top: 20px;
+  }
+  
+  .solution-box {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 6px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .solution-box.correct {
+    border-left-color: #2ecc71;
+  }
+  
+  .solution-box.wrong {
+    border-left-color: #e74c3c;
+  }
+  
+  .solution-box p {
+    margin: 6px 0;
+  }
+  
